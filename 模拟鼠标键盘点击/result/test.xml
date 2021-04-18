@@ -1,0 +1,1304 @@
+<?xml version="1.0"?>
+<ScanGroup ExportedOn="28/2/2020, 19:43">
+ <Scan>
+  <Name><![CDATA[Scan Thread 1 ( http://192.168.199.1:80/ )]]></Name>
+  <ShortName><![CDATA[Scan Thread 1]]></ShortName>
+  <StartURL><![CDATA[http://192.168.199.1:80/]]></StartURL>
+  <StartTime><![CDATA[28/2/2020, 16:42:22]]></StartTime>
+  <FinishTime><![CDATA[28/2/2020, 16:44:06]]></FinishTime>
+  <ScanTime><![CDATA[1 minutes, 43 seconds]]></ScanTime>
+  <Aborted><![CDATA[False]]></Aborted>
+  <Responsive><![CDATA[True]]></Responsive>
+  <Banner><![CDATA[httpd]]></Banner>
+  <Os><![CDATA[Unknown]]></Os>
+  <WebServer><![CDATA[Unknown]]></WebServer>
+  <Technologies><![CDATA[]]></Technologies>
+  <KBase>
+    <KBItem>
+     <Name><![CDATA[List of file extensions]]></Name>
+     <Text><![CDATA[File extensions can provide information on what technologies are being used on this website.[break] List of file extensions detected:[break][break][ul][li][dark]css[/dark] =&gt; [bold]3[/bold] file(s)[/li][li][dark]js[/dark] =&gt; [bold]14[/bold] file(s)[/li][li][dark]txt[/dark] =&gt; [bold]1[/bold] file(s)[/li][li][dark]htm[/dark] =&gt; [bold]3[/bold] file(s)[/li][/ul]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+    <KBItem>
+     <Name><![CDATA[Top 10 response times]]></Name>
+     <Text><![CDATA[The files listed below had the slowest response times measured during the crawling process. The average response time for this site was [bold]172.08 ms[/bold]. These files could be targetted in denial of service attacks.[break][break][bold]1. [navy]/pc[/navy][/bold], response time [bold]6593[/bold] ms[break][break][pre]GET /pc HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Host: 192.168.199.1
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+[/pre][bold]2. [navy]/web-static/lib[/navy][/bold], response time [bold]6593[/bold] ms[break][break][pre]GET /web-static/lib HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Host: 192.168.199.1
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+[/pre]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+    <KBItem>
+     <Name><![CDATA[List of client scripts]]></Name>
+     <Text><![CDATA[These files contain Javascript code referenced from the website.[break][break][ul][li][bold]/web-static/dynaform/frame.js[/bold][/li][/ul]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+    <KBItem>
+     <Name><![CDATA[List of files with inputs]]></Name>
+     <Text><![CDATA[These files have at least one input (GET or POST).[break][break][ul][li][bold]/[/bold] - [dark][bold] 2 [/bold][/dark] inputs[/li][/ul]]]></Text>
+     <References>
+     </References>
+    </KBItem>
+  </KBase>
+  <Crawler StartUrl="http://192.168.199.1/">
+   <Cookies>
+   </Cookies>
+   <SiteFiles>
+     <SiteFile id="1">
+      <Name></Name>
+      <URL>/</URL>
+      <FullURL>http://192.168.199.1/</FullURL>
+      <Inputs>
+       <Variable Name="t" Type="URL encoded GET">
+       </Variable>
+       <Variable Name="Host" Type="HTTP Header">
+       </Variable>
+      </Inputs>
+      <Variations>
+        <Variation>
+         <URL>http://192.168.199.1/?t=1582879333</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://192.168.199.1/?t=1582879345</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://192.168.199.1/</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+        <Variation>
+         <URL>http://192.168.199.1/?t=1582879389</URL>
+         <PostData><![CDATA[]]></PostData>
+        </Variation>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="2">
+      <Name>web-static</Name>
+      <URL>/web-static</URL>
+      <FullURL>http://192.168.199.1/web-static</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="3">
+      <Name>images</Name>
+      <URL>/web-static/images</URL>
+      <FullURL>http://192.168.199.1/web-static/images</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="4">
+      <Name>dynaform</Name>
+      <URL>/web-static/dynaform</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="5">
+      <Name>frame.css</Name>
+      <URL>/web-static/dynaform/frame.css</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/frame.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="6">
+      <Name>icon_fonts_style.css</Name>
+      <URL>/web-static/dynaform/icon_fonts_style.css</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/icon_fonts_style.css</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="7">
+      <Name>frame.js</Name>
+      <URL>/web-static/dynaform/frame.js</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/frame.js</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="8">
+      <Name>pc.css</Name>
+      <URL>/web-static/dynaform/pc.css?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/pc.css?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="9">
+      <Name>pc.js</Name>
+      <URL>/web-static/dynaform/pc.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/pc.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="10">
+      <Name>routing.js</Name>
+      <URL>/web-static/dynaform/routing.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/routing.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="11">
+      <Name>zh-CN.js</Name>
+      <URL>/web-static/dynaform/zh-CN.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/zh-CN.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="12">
+      <Name>err-tip.js</Name>
+      <URL>/web-static/dynaform/err-tip.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/err-tip.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="13">
+      <Name>error.js</Name>
+      <URL>/web-static/dynaform/error.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/error.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="14">
+      <Name>verify.js</Name>
+      <URL>/web-static/dynaform/verify.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/verify.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="15">
+      <Name>vendor.js</Name>
+      <URL>/web-static/dynaform/vendor.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/dynaform/vendor.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="16">
+      <Name>fonts</Name>
+      <URL>/web-static/fonts</URL>
+      <FullURL>http://192.168.199.1/web-static/fonts</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="17">
+      <Name>lib</Name>
+      <URL>/web-static/lib</URL>
+      <FullURL>http://192.168.199.1/web-static/lib</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="18">
+      <Name>jquery.min.js</Name>
+      <URL>/web-static/lib/jquery.min.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/lib/jquery.min.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="19">
+      <Name>stateman.min.js</Name>
+      <URL>/web-static/lib/stateman.min.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/lib/stateman.min.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="20">
+      <Name>json.min.js</Name>
+      <URL>/web-static/lib/json.min.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/lib/json.min.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="21">
+      <Name>echarts.simple.min.js</Name>
+      <URL>/web-static/lib/echarts.simple.min.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/lib/echarts.simple.min.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="22">
+      <Name>ajax.js</Name>
+      <URL>/web-static/lib/ajax.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/lib/ajax.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="23">
+      <Name>libs.js</Name>
+      <URL>/web-static/lib/libs.js?seq=2017.01.09</URL>
+      <FullURL>http://192.168.199.1/web-static/lib/libs.js?seq=2017.01.09</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="24">
+      <Name>robots.txt</Name>
+      <URL>/robots.txt</URL>
+      <FullURL>http://192.168.199.1/robots.txt</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="25">
+      <Name>pc</Name>
+      <URL>/pc</URL>
+      <FullURL>http://192.168.199.1/pc</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="26">
+      <Name>menu.htm</Name>
+      <URL>/pc/menu.htm</URL>
+      <FullURL>http://192.168.199.1/pc/menu.htm</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="27">
+      <Name>login.htm</Name>
+      <URL>/pc/login.htm</URL>
+      <FullURL>http://192.168.199.1/pc/login.htm</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+     <SiteFile id="28">
+      <Name>userAgreement.htm</Name>
+      <URL>/pc/userAgreement.htm</URL>
+      <FullURL>http://192.168.199.1/pc/userAgreement.htm</FullURL>
+      <Inputs>
+      </Inputs>
+      <Variations>
+      </Variations>
+     </SiteFile>
+   </SiteFiles>
+  </Crawler>
+    <ReportItems>
+
+      <ReportItem id="0" color="blue">
+       <Name><![CDATA[Clickjacking: X-Frame-Options header missing]]></Name>
+       <ModuleName><![CDATA[Scripting (Clickjacking_X_Frame_Options.script)]]></ModuleName>
+       <Details><![CDATA[No details are available.]]></Details>
+       <Affects><![CDATA[Web Server]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Configuration]]></Type>
+       <Impact><![CDATA[The impact depends on the affected web application. ]]></Impact>
+       <Description><![CDATA[Clickjacking (User Interface redress attack, UI redress attack, UI redressing) is a malicious technique of tricking a Web user into clicking on something different from what the user perceives they are clicking on, thus potentially revealing confidential information or taking control of their computer while clicking on seemingly innocuous web pages. <br/><br/>
+The server didn't return an <b>X-Frame-Options</b> header which means that this website could be at risk of a clickjacking attack. The X-Frame-Options HTTP response header can be used to indicate whether or not a browser should be allowed to render a page inside a frame or iframe. Sites can use this to avoid clickjacking attacks, by ensuring that their content is not embedded into other sites.
+]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Configure your web server to include an  X-Frame-Options header. Consult Web references for more information about the possible values for this header.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET / HTTP/1.1
+Host: 192.168.199.1
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 200 Ok
+Server: httpd
+Date: Fri, 28 Feb 2020 08:42:38 GMT
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: 0
+Content-Type: text/html
+Connection: close
+Content-Length: 1895
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="693"><![CDATA[CWE-693]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:M/Au:N/C:P/I:P/A:P]]></Descriptor>
+          <Score><![CDATA[6.8]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Medium]]></AC>
+          <ACdesc><![CDATA[The access conditions are somewhat specialized.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[Partial]]></I>
+          <Idesc><![CDATA[Modification of some system files or information is possible, but the attacker does not have control over what can be modified, or the scope of what the attacker can affect is limited.]]></Idesc>
+          <A><![CDATA[Partial]]></A>
+          <Adesc><![CDATA[There is reduced performance or interruptions in resource availability.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[]]></Descriptor>
+          <Score><![CDATA[]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[]]></AV>
+          <AVdesc><![CDATA[]]></AVdesc>
+          <AC><![CDATA[]]></AC>
+          <ACdesc><![CDATA[]]></ACdesc>
+          <PR><![CDATA[]]></PR>
+          <PRdesc><![CDATA[]]></PRdesc>
+          <UI><![CDATA[]]></UI>
+          <UIdesc><![CDATA[]]></UIdesc>
+          <S><![CDATA[]]></S>
+          <Sdesc><![CDATA[]]></Sdesc>
+          <C><![CDATA[]]></C>
+          <Cdesc><![CDATA[]]></Cdesc>
+          <I><![CDATA[]]></I>
+          <Idesc><![CDATA[]]></Idesc>
+          <A><![CDATA[]]></A>
+          <Adesc><![CDATA[]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+       <References>
+        <Reference>
+          <Database><![CDATA[The X-Frame-Options response header]]></Database>
+          <URL><![CDATA[https://developer.mozilla.org/en-US/docs/HTTP/X-Frame-Options]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Clickjacking]]></Database>
+          <URL><![CDATA[http://en.wikipedia.org/wiki/Clickjacking]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[OWASP Clickjacking]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Defending with Content Security Policy frame-ancestors directive]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet#Defending_with_Content_Security_Policy_frame-ancestors_directive]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Frame Buster Buster]]></Database>
+          <URL><![CDATA[http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed]]></URL>
+        </Reference>
+        <Reference>
+          <Database><![CDATA[Clickjacking Protection for Java EE]]></Database>
+          <URL><![CDATA[https://www.owasp.org/index.php/Clickjacking_Protection_for_Java_EE]]></URL>
+        </Reference>
+       </References>
+      </ReportItem>
+
+      <ReportItem id="1" color="green">
+       <Name><![CDATA[Possible username or password disclosure]]></Name>
+       <ModuleName><![CDATA[Scripting (Text_Search_File.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Pattern found: <pre wrap="virtual"><font color="blue">Pwd = function</font></pre>]]></Details>
+       <Affects><![CDATA[/web-static/dynaform/frame.js]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[A username and/or password was found in this file. This information could be sensitive.<br/><br/> <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div>]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Remove this file from your website or change its permissions to remove access.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /web-static/dynaform/frame.js HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://192.168.199.1/
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Host: 192.168.199.1
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 200 Ok
+Server: httpd
+Date: Fri, 28 Feb 2020 08:42:13 GMT
+Content-Type: text/javascript
+Connection: close
+Content-Length: 34883
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="2" color="green">
+       <Name><![CDATA[Possible internal IP address disclosure]]></Name>
+       <ModuleName><![CDATA[Scripting (Text_Search_File.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Pattern found: <pre wrap="virtual"><font color="blue">192.168.2.1</font></pre>]]></Details>
+       <Affects><![CDATA[/web-static/lib/ajax.js]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[A string matching an internal IPv4 address was found on this page. This may disclose information about the IP addressing scheme of the internal network. This information can be used to conduct further attacks.<br/><br/> <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div>]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Prevent this information from being displayed to the user.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /web-static/lib/ajax.js?seq=2017.01.09 HTTP/1.1
+Accept: */*
+Referer: http://192.168.199.1/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en,*
+Host: 192.168.199.1
+Pragma: no-cache
+Cache-Control: no-cache
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 200 Ok
+Server: httpd
+Date: Fri, 28 Feb 2020 08:42:42 GMT
+Content-Type: text/javascript
+Connection: Keep-alive
+Content-Length: 12047
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="3" color="green">
+       <Name><![CDATA[Possible username or password disclosure]]></Name>
+       <ModuleName><![CDATA[Scripting (Text_Search_File.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Pattern found: <pre wrap="virtual"><font color="blue">pwd = &quot;&quot;</font></pre>]]></Details>
+       <Affects><![CDATA[/web-static/lib/ajax.js]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[A username and/or password was found in this file. This information could be sensitive.<br/><br/> <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div>]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Remove this file from your website or change its permissions to remove access.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /web-static/lib/ajax.js?seq=2017.01.09 HTTP/1.1
+Accept: */*
+Referer: http://192.168.199.1/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en,*
+Host: 192.168.199.1
+Pragma: no-cache
+Cache-Control: no-cache
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 200 Ok
+Server: httpd
+Date: Fri, 28 Feb 2020 08:42:42 GMT
+Content-Type: text/javascript
+Connection: Keep-alive
+Content-Length: 12047
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="4" color="green">
+       <Name><![CDATA[Possible internal IP address disclosure]]></Name>
+       <ModuleName><![CDATA[Scripting (Text_Search_File.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Pattern found: <pre wrap="virtual"><font color="blue">192.168.2.1</font></pre>]]></Details>
+       <Affects><![CDATA[/web-static/dynaform/zh-CN.js]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[A string matching an internal IPv4 address was found on this page. This may disclose information about the IP addressing scheme of the internal network. This information can be used to conduct further attacks.<br/><br/> <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div>]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Prevent this information from being displayed to the user.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /web-static/dynaform/zh-CN.js?seq=2017.01.09 HTTP/1.1
+Accept: */*
+Referer: http://192.168.199.1/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en,*
+Host: 192.168.199.1
+Pragma: no-cache
+Cache-Control: no-cache
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 200 Ok
+Server: httpd
+Date: Fri, 28 Feb 2020 08:42:42 GMT
+Content-Type: text/javascript
+Connection: Keep-alive
+Content-Length: 41713
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="5" color="green">
+       <Name><![CDATA[Possible username or password disclosure]]></Name>
+       <ModuleName><![CDATA[Scripting (Text_Search_File.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Pattern found: <pre wrap="virtual"><font color="blue">Pwd:&quot;</font></pre>]]></Details>
+       <Affects><![CDATA[/web-static/dynaform/zh-CN.js]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[A username and/or password was found in this file. This information could be sensitive.<br/><br/> <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div>]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Remove this file from your website or change its permissions to remove access.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /web-static/dynaform/zh-CN.js?seq=2017.01.09 HTTP/1.1
+Accept: */*
+Referer: http://192.168.199.1/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en,*
+Host: 192.168.199.1
+Pragma: no-cache
+Cache-Control: no-cache
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 200 Ok
+Server: httpd
+Date: Fri, 28 Feb 2020 08:42:42 GMT
+Content-Type: text/javascript
+Connection: Keep-alive
+Content-Length: 41713
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="6" color="green">
+       <Name><![CDATA[Possible username or password disclosure]]></Name>
+       <ModuleName><![CDATA[Scripting (Text_Search_File.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Pattern found: <pre wrap="virtual"><font color="blue">Pwd = function</font></pre>]]></Details>
+       <Affects><![CDATA[/web-static/dynaform/verify.js]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[A username and/or password was found in this file. This information could be sensitive.<br/><br/> <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div>]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Remove this file from your website or change its permissions to remove access.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /web-static/dynaform/verify.js?seq=2017.01.09 HTTP/1.1
+Accept: */*
+Referer: http://192.168.199.1/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en,*
+Host: 192.168.199.1
+Pragma: no-cache
+Cache-Control: no-cache
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 200 Ok
+Server: httpd
+Date: Fri, 28 Feb 2020 08:42:42 GMT
+Content-Type: text/javascript
+Connection: Keep-alive
+Content-Length: 11810
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="7" color="green">
+       <Name><![CDATA[Possible username or password disclosure]]></Name>
+       <ModuleName><![CDATA[Scripting (Text_Search_File.script)]]></ModuleName>
+       <Details><![CDATA[<br/>Pattern found: <pre wrap="virtual"><font color="blue">pwd = null</font></pre>]]></Details>
+       <Affects><![CDATA[/pc/login.htm]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[info]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible sensitive information disclosure.]]></Impact>
+       <Description><![CDATA[A username and/or password was found in this file. This information could be sensitive.<br/><br/> <div class="coolbox"><font color="dark">This alert may be a false positive, manual confirmation is required.</font></div>]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Remove this file from your website or change its permissions to remove access.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /pc/login.htm HTTP/1.1
+Cache-Control: no-cache
+Pragma: no-cache
+If-Modified-Since: 0
+Referer: http://192.168.199.1/
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+Accept-Language: zh-CN,en,*
+Host: 192.168.199.1
+Pragma: no-cache
+Cache-Control: no-cache
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 200 Ok
+Server: httpd
+Date: Fri, 28 Feb 2020 08:42:44 GMT
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: 0
+Content-Type: text/html
+Connection: Keep-alive
+Content-Length: 7883
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="200"><![CDATA[CWE-200]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:P/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[Partial]]></C>
+          <Cdesc><![CDATA[There is considerable informational disclosure. Access to some system files is possible, but the attacker does not have control over what is obtained, or the scope of the loss is constrained.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to the availability of the system.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[High]]></C>
+          <Cdesc><![CDATA[There is total loss of confidentiality, resulting in all resources within the impacted component being divulged to the attacker. Alternatively, access to only some restricted information is obtained, but the disclosed information presents a direct, serious impact.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[None]]></A>
+          <Adesc><![CDATA[There is no impact to availability within the impacted component.]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="8" color="blue">
+       <Name><![CDATA[Slow response time]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[The response time for this page was <b>6593 ms</b> while the average response time for this site is <b>172.08 ms</b>]]></Details>
+       <Affects><![CDATA[/pc]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible denial of service.]]></Impact>
+       <Description><![CDATA[This page had a slow response time. This type of files can be targeted in denial of service attacks. An attacker can request this page repeatedly from multiple computers until the server becomes overloaded.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Investigate if it's possible to reduce the response time for this page.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /pc HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Host: 192.168.199.1
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 302 Redirect
+Server: httpd
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Date: Fri, 28 Feb 2020 08:43:09 GMT
+Location: http://192.168.199.1/?t=1582879389
+Content-Type: text/html
+Connection: close
+Content-Length: 0
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="400"><![CDATA[CWE-400]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:P]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[Partial]]></A>
+          <Adesc><![CDATA[There is reduced performance or interruptions in resource availability.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[High]]></A>
+          <Adesc><![CDATA[There is total loss of availability, resulting in the attacker being able to fully deny access to resources in the impacted component; this loss is either sustained (while the attacker continues to deliver the attack) or persistent (the condition persists even after the attack has completed).]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+
+      <ReportItem id="9" color="blue">
+       <Name><![CDATA[Slow response time]]></Name>
+       <ModuleName><![CDATA[Crawler]]></ModuleName>
+       <Details><![CDATA[The response time for this page was <b>6593 ms</b> while the average response time for this site is <b>172.08 ms</b>]]></Details>
+       <Affects><![CDATA[/web-static/lib]]></Affects>
+       <Parameter><![CDATA[]]></Parameter>
+       <AOP_SourceFile><![CDATA[]]></AOP_SourceFile>
+       <AOP_SourceLine>0</AOP_SourceLine>
+       <AOP_Additional><![CDATA[]]></AOP_Additional>
+       <IsFalsePositive><![CDATA[False]]></IsFalsePositive>
+       <Severity><![CDATA[low]]></Severity>
+       <Type><![CDATA[Informational]]></Type>
+       <Impact><![CDATA[Possible denial of service.]]></Impact>
+       <Description><![CDATA[This page had a slow response time. This type of files can be targeted in denial of service attacks. An attacker can request this page repeatedly from multiple computers until the server becomes overloaded.]]></Description>
+       <DetailedInformation><![CDATA[]]></DetailedInformation>
+       <Recommendation><![CDATA[Investigate if it's possible to reduce the response time for this page.]]></Recommendation>
+       <TechnicalDetails>
+        <Request><![CDATA[GET /web-static/lib HTTP/1.1
+Pragma: no-cache
+Cache-Control: no-cache
+Acunetix-Aspect: enabled
+Acunetix-Aspect-Password: 082119f75623eb7abd7bf357698ff66c
+Acunetix-Aspect-Queries: filelist;aspectalerts
+Host: 192.168.199.1
+Connection: Keep-alive
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.21
+Accept: */*
+
+]]></Request>
+        <Response><![CDATA[HTTP/1.0 302 Redirect
+Server: httpd
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Date: Fri, 28 Feb 2020 08:43:09 GMT
+Location: http://192.168.199.1/?t=1582879389
+Content-Type: text/html
+Connection: close
+Content-Length: 0
+]]></Response>
+       </TechnicalDetails>
+       <CWE id="400"><![CDATA[CWE-400]]></CWE>
+      <CVEList></CVEList>
+       <CVSS>
+          <Descriptor><![CDATA[AV:N/AC:L/Au:N/C:N/I:N/A:P]]></Descriptor>
+          <Score><![CDATA[5.0]]></Score>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable software is bound to the network stack and the attacker does not require local network access or local access.]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist.]]></ACdesc>
+          <Au><![CDATA[None]]></Au>
+          <Audesc><![CDATA[Authentication is not required to exploit the vulnerability.]]></Audesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no impact to the confidentiality of the system.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no impact to the integrity of the system.]]></Idesc>
+          <A><![CDATA[Partial]]></A>
+          <Adesc><![CDATA[There is reduced performance or interruptions in resource availability.]]></Adesc>
+          <E><![CDATA[]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS>
+       <CVSS3>
+          <Descriptor><![CDATA[CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H]]></Descriptor>
+          <Score><![CDATA[7.5]]></Score>
+          <TempScore><![CDATA[]]></TempScore>
+          <EnvScore><![CDATA[]]></EnvScore>
+          <AV><![CDATA[Network]]></AV>
+          <AVdesc><![CDATA[A vulnerability exploitable with network access means the vulnerable component is bound to the network stack and the attacker's path is through OSI layer 3 (the network layer). Such a vulnerability is often termed "remotely exploitable" and can be thought of as an attack being exploitable one or more network hops away (e.g. across layer 3 boundaries from routers).]]></AVdesc>
+          <AC><![CDATA[Low]]></AC>
+          <ACdesc><![CDATA[Specialized access conditions or extenuating circumstances do not exist. An attacker can expect repeatable success against the vulnerable component.]]></ACdesc>
+          <PR><![CDATA[None]]></PR>
+          <PRdesc><![CDATA[The attacker is unauthorized prior to attack, and therefore does not require any access to settings or files to carry out an attack.]]></PRdesc>
+          <UI><![CDATA[None]]></UI>
+          <UIdesc><![CDATA[The vulnerable system can be exploited without interaction from any user.]]></UIdesc>
+          <S><![CDATA[Unchanged]]></S>
+          <Sdesc><![CDATA[An exploited vulnerability can only affect resources managed by the same authority. In this case the vulnerable component and the impacted component are the same.]]></Sdesc>
+          <C><![CDATA[None]]></C>
+          <Cdesc><![CDATA[There is no loss of confidentiality within the impacted component.]]></Cdesc>
+          <I><![CDATA[None]]></I>
+          <Idesc><![CDATA[There is no loss of integrity within the impacted component.]]></Idesc>
+          <A><![CDATA[High]]></A>
+          <Adesc><![CDATA[There is total loss of availability, resulting in the attacker being able to fully deny access to resources in the impacted component; this loss is either sustained (while the attacker continues to deliver the attack) or persistent (the condition persists even after the attack has completed).]]></Adesc>
+          <E><![CDATA[X]]></E>
+          <Edesc><![CDATA[]]></Edesc>
+          <RL><![CDATA[X]]></RL>
+          <RLdesc><![CDATA[]]></RLdesc>
+          <RC><![CDATA[X]]></RC>
+          <RCdesc><![CDATA[]]></RCdesc>
+       </CVSS3>
+      <References></References>
+      </ReportItem>
+		</ReportItems>
+ </Scan>
+</ScanGroup>
